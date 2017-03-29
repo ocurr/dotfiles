@@ -7,3 +7,4 @@ config:
             -  "~/.config/nvim/init.vim" : "~/.vimrc"
             -  "~/.config/nvim" : "~/.vim"
             - ".hammerspoon" : "~/.hammerspoon"
+            - ".bash_profile" : "~/.bash_profile"
