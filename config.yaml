@@ -1,4 +1,9 @@
 config:
+
     home:
+
         link:
-            - ".vimrc" : "~/.vimrc"
+            - "init.vim" : "~/.config/nvim/init.vim"
+            -  "~/.config/nvim/init.vim" : "~/.vimrc"
+            -  "~/.config/nvim" : "~/.vim"
+            - ".hammerspoon" : "~/.hammerspoon"
