@@ -3,8 +3,9 @@ config:
     home:
 
         link:
+            - "nvim" : "~/.config/nvim"
             - "init.vim" : "~/.config/nvim/init.vim"
-            -  "~/.config/nvim/init.vim" : "~/.vimrc"
-            -  "~/.config/nvim" : "~/.vim"
+            -  "init.vim" : "~/.vimrc"
+            -  "nvim" : "~/.vim"
             - ".hammerspoon" : "~/.hammerspoon"
             - ".bash_profile" : "~/.bash_profile"
