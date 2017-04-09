@@ -52,6 +52,21 @@ end
 hs.hotkey.bind(hyper, "S", function() askForSleep(handleSleep) end)
 hs.hotkey.bind(hyper, "L", hs.caffeinate.startScreensaver)
 
+function preventSleep()
+    hs.caffeinate.set("displayIdle", true, false)
+    hs.caffeinate.set("systemIdle", true, false)
+    hs.alert("Preventing Sleep")
+end
+
+function allowSleep()
+    hs.caffeinate.set("displayIdle", false, false)
+    hs.caffeinate.set("systemIdle", false, false)
+    hs.alert("Allowing Sleep")
+end
+
+hs.hotkey.bind(hyper, "R", preventSleep)
+hs.hotkey.bind(hyper, "T", allowSleep)
+
 hs.hints.showTitleThresh = 20
 hs.hints.titleMaxSize = 10
 hs.hotkey.bind(hyper, "E", hs.hints.windowHints)
