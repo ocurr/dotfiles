@@ -10,6 +10,8 @@ set switchbuf=usetab,newtab
 set ruler
 set nohlsearch
 
+set mouse=a
+
 let g:solarized_termtrans=1
 let g:solarized_termcolors=256
 set background=dark
