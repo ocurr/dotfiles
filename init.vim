@@ -43,7 +43,12 @@ Plug 'danro/rename.vim'
 Plug 'tpope/vim-surround'
 Plug 'godlygeek/tabular'
 Plug 'cespare/vim-toml'
+Plug 'toyamarinyon/vim-swift', { 'for': 'swift' }
+Plug 'jamshedvesuna/vim-markdown-preview', { 'for': 'md' }
 
 call plug#end()
+
+let vim_markdown_preview_browser='Google Chrome'
+let vim_markdown_preview_toggle=2
 
 map ntr :NERDTreeToggle<CR>
