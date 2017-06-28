@@ -5,7 +5,8 @@ config:
         link:
             - "nvim" : "~/.config/nvim"
             - "init.vim" : "~/.config/nvim/init.vim"
-            -  "init.vim" : "~/.vimrc"
-            -  "nvim" : "~/.vim"
-            - ".hammerspoon" : "~/.hammerspoon"
-            - ".bash_profile" : "~/.bash_profile"
+            - "init.vim" : "~/.vimrc"
+            - "nvim" : "~/.vim"
+            - "hammerspoon" : "~/.hammerspoon"
+            - "bash_profile" : "~/.bash_profile"
+            - "tmux.conf" : "~/.tmux.conf"
