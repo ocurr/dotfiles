@@ -9,3 +9,4 @@ nvim/after/*
 nvim/autoload/*
 nvim/colors/*
 nvim/init.vim
+nvim/.netrwhist
