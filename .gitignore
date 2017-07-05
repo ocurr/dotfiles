@@ -1,0 +1,11 @@
+nvim/syntax/*
+nvim/view/*
+nvim/plugged/*
+nvim/plugin/*
+nvim/ftdetect/*
+nvim/ftplugin/*
+nvim/indent/*
+nvim/after/*
+nvim/autoload/*
+nvim/colors/*
+nvim/init.vim
