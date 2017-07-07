@@ -5,6 +5,8 @@ alias electron="/Applications/Electron.app/Contents/MacOS/Electron"
 
 export NVIM_TUI_ENABLE_TRUE_COLOR=1
 
+export HOMEBREW_EDITOR="nvim"
+
 export CLASSPATH=$CLASSPATH:/Users/oliver/calpoly-csc/junit/hamcrest-core-1.3.jar:/Users/oliver/calpoly-csc/junit/junit-4.12.jar
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
