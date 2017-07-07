@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/oliver/cpeSeries/cpe101/lab9/groups'
-let g:netrw_dirhist_2='/Users/oliver/go/src/github.com/ocurr/goserve/templates'
-let g:netrw_dirhist_3='/Users/oliver/calpoly-csc/cpe103/lab00'
-let g:netrw_dirhist_4='/Users/oliver/.vim'
-let g:netrw_dirhist_5='/Users/oliver/calpoly-csc/cpe103/lab00'
-let g:netrw_dirhist_6='/Users/oliver/calpoly-csc/cpe103/lab01'
-let g:netrw_dirhist_7='/Users/oliver/calpoly-csc/cpe103/lab02'

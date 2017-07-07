@@ -5,8 +5,20 @@ local watcher = require 'watcher'
 local externalDisplay = 'S24E390'
 local laptopDisplay = 'Color LCD'
 
+--[[
+hs.eventtap.new({hs.eventtap.event.types.keyDown},
+function(e)
+    if hs.keycodes.map[e:getKeyCode()] == "f19" then
+        hs.eventtap.keyStroke({"alt"}, )
+        return true
+    end
+    print(e:getKeyCode())
+    return false
+end):start()
+--]]
+
 --hotkey modifiers
-local hyper = {"cmd", "alt", "ctrl"}
+local hyper = {"cmd", "ctrl", "alt", "shift"}
 
 hs.hotkey.bind(hyper, '`', hs.reload)
 
