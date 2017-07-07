@@ -6,6 +6,7 @@ config:
             - "init.vim" : "~/.config/nvim/init.vim"
             - "init.vim" : "~/.vimrc"
             - "~/.config/nvim" : "~/.vim"
-            - "hammerspoon" : "~/.hammerspoon"
+            - "hammerspoon/init.lua" : "~/.hammerspoon/init.lua"
+            - "hammerspoon/watcher.lua" : "~/.hammerspoon/watcher.lua"
             - "bash_profile" : "~/.bash_profile"
             - "tmux.conf" : "~/.tmux.conf"
