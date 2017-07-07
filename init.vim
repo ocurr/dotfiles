@@ -38,7 +38,7 @@ call plug#begin()
 Plug 'https://github.com/scrooloose/nerdtree.git', { 'on': 'NERDTreeToggle' }
 Plug 'https://github.com/fatih/vim-go.git', { 'for': 'go' }
 Plug 'https://github.com/peter-edge/vim-capnp.git', { 'for': 'capnp' }
-Plug 'https://github.com/altercation/vim-colors-solarized.git'
+Plug 'altercation/vim-colors-solarized', { 'do': 'cp colors/solarized.vim ../../colors/.' }
 Plug 'danro/rename.vim'
 Plug 'tpope/vim-surround'
 Plug 'godlygeek/tabular'
