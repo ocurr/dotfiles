@@ -3,10 +3,10 @@ config:
     home:
 
         link:
-            - "nvim" : "~/.config/nvim"
             - "init.vim" : "~/.config/nvim/init.vim"
             - "init.vim" : "~/.vimrc"
-            - "nvim" : "~/.vim"
-            - "hammerspoon" : "~/.hammerspoon"
+            - "~/.config/nvim" : "~/.vim"
+            - "hammerspoon/init.lua" : "~/.hammerspoon/init.lua"
+            - "hammerspoon/watcher.lua" : "~/.hammerspoon/watcher.lua"
             - "bash_profile" : "~/.bash_profile"
             - "tmux.conf" : "~/.tmux.conf"
