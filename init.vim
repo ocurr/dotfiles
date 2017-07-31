@@ -50,9 +50,11 @@ call plug#end()
 
 let vim_markdown_preview_browser='Google Chrome'
 let vim_markdown_preview_github=1
-let vim_markdown_preview_toggle=2
+let vim_markdown_preview_toggle=0
 
-command! MarkdownPandoc let vim_markdown_preview_pandoc=1 | let vim_markdown_preview_github=0
-command! MarkdownGithub let vim_markdown_preview_pandoc=0 | let vim_markdown_preview_github=1
+command! MarkdownPandoc let vim_markdown_preview_pandoc=1 | let vim_markdown_preview_github=0 | call Vim_Markdown_Preview()
+command! MarkdownGithub let vim_markdown_preview_pandoc=0 | let vim_markdown_preview_github=1 | call Vim_Markdown_Preview()
+
+map mp :call Vim_Markdown_Preview()<CR>
 
 map ntr :NERDTreeToggle<CR>
