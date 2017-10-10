@@ -2,6 +2,7 @@ export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/opt/go/libexec/bin:${GOPATH}/bin
 alias love="/Applications/love.app/Contents/MacOS/love"
 alias electron="/Applications/Electron.app/Contents/MacOS/Electron"
+alias adb="~/Library/Android/sdk/platform-tools/adb"
 
 export NVIM_TUI_ENABLE_TRUE_COLOR=1
 
