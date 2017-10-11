@@ -10,6 +10,8 @@ set switchbuf=usetab,newtab
 set ruler
 set nohlsearch
 
+set backspace=indent,eol,start
+
 set mouse=a
 
 let g:solarized_termtrans=1
