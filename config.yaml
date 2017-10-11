@@ -1,12 +1,16 @@
-config:
-
+profiles:
     home:
-
-        link:
-            - "init.vim" : "~/.config/nvim/init.vim"
-            - "init.vim" : "~/.vimrc"
-            - "~/.config/nvim" : "~/.vim"
-            - "hammerspoon/init.lua" : "~/.hammerspoon/init.lua"
-            - "hammerspoon/watcher.lua" : "~/.hammerspoon/watcher.lua"
-            - "bash_profile" : "~/.bash_profile"
-            - "tmux.conf" : "~/.tmux.conf"
+        - "init.vim" :
+            link: "~/.config/nvim/init.vim"
+        - "init.vim" :
+            link: "~/.vimrc"
+        - "~/.config/nvim" :
+            link: "~/.vim"
+        - "hammerspoon/init.lua" :
+            link: "~/.hammerspoon/init.lua"
+        - "hammerspoon/watcher.lua" :
+            link: "~/.hammerspoon/watcher.lua"
+        - "bash_profile" :
+            link: "~/.bash_profile"
+        - "tmux.conf" :
+            link: "~/.tmux.conf"
