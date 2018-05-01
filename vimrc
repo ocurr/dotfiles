@@ -47,6 +47,7 @@ Plug 'godlygeek/tabular'
 Plug 'cespare/vim-toml'
 Plug 'toyamarinyon/vim-swift', { 'for': 'swift' }
 Plug 'jamshedvesuna/vim-markdown-preview'
+Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
 

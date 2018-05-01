@@ -1,11 +1,8 @@
 profiles:
     home:
-        - "init.vim" :
-            link: "~/.config/nvim/init.vim"
-        - "init.vim" :
+        - "vimrc" :
             link: "~/.vimrc"
-        - "~/.config/nvim" :
-            link: "~/.vim"
+            after: "install_vimplug.sh"
         - "hammerspoon/init.lua" :
             link: "~/.hammerspoon/init.lua"
         - "hammerspoon/watcher.lua" :
