@@ -17,7 +17,11 @@ set mouse=a
 let g:solarized_termtrans=1
 let g:solarized_termcolors=256
 set background=dark
-colorscheme solarized
+if !empty(glob("~/.vim/colors/solarized.vim"))
+    colorscheme solarized
+else
+    colorscheme desert
+endif
 
 " Common indentation modes
 " Sets the indentation options to common settings.
