@@ -14,6 +14,11 @@ set backspace=indent,eol,start
 
 set mouse=a
 
+set autoread
+
+au FocusGained,BufEnter * :silent! !
+au FocusLost,WinLeave * :silent! noautocmd w
+
 let g:solarized_termtrans=1
 let g:solarized_termcolors=256
 set background=dark
@@ -52,6 +57,7 @@ Plug 'cespare/vim-toml'
 Plug 'toyamarinyon/vim-swift', { 'for': 'swift' }
 Plug 'jamshedvesuna/vim-markdown-preview'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'tmux-plugins/vim-tmux-focus-events'
 
 call plug#end()
 
