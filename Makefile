@@ -11,7 +11,7 @@ tmux_install: tmux/tmux.conf
 	ln -f tmux/tmux.conf ~/.tmux.conf
 
 macos: vim_install tmux_install homebrew_install
-	echo source $(pwd)/bash/macos_profile >> ~/.bash_profile
+	echo source $(shell pwd)/bash/macos_profile >> ~/.bash_profile
 
 linux: vim_install tmux_install
-	echo source $(pwd)/bash/linux_profile >> ~/.bash_aliases
+	echo source $(shell pwd)/bash/linux_profile >> ~/.bash_aliases
