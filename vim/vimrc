@@ -10,9 +10,21 @@ set switchbuf=usetab,newtab
 set ruler
 set nohlsearch
 
+set noswapfile
+
 set backspace=indent,eol,start
 
 set mouse=a
+
+set autoread
+
+au FocusGained,BufEnter * :silent! !
+au FocusLost,WinLeave * :silent! noautocmd w
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 let g:solarized_termtrans=1
 let g:solarized_termcolors=256
@@ -52,6 +64,8 @@ Plug 'cespare/vim-toml'
 Plug 'toyamarinyon/vim-swift', { 'for': 'swift' }
 Plug 'jamshedvesuna/vim-markdown-preview'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'tmux-plugins/vim-tmux-focus-events'
+Plug 'avakhov/vim-yaml', { 'for': 'yml' }
 
 call plug#end()
 
